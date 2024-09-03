@@ -1,0 +1,317 @@
+@REM /* General Styles */
+@REM .shop_section {
+@REM   padding: 70px 0;
+@REM }
+
+@REM .container {
+@REM   max-width: 1170px;
+@REM   margin: 0 auto;
+@REM   padding: 0 15px;
+@REM }
+
+@REM /* Heading */
+
+@REM .heading_container {
+@REM   text-align: center;
+@REM   margin-bottom: 50px;
+@REM }
+
+@REM .heading_center h2 {
+@REM   font-size: 30px;
+@REM   margin-bottom: 10px;
+@REM }
+
+@REM /* Products Grid */
+
+@REM .row {
+@REM   display: flex;
+@REM   flex-wrap: wrap;
+@REM   justify-content: space-between;
+@REM   margin-bottom: 50px;
+@REM }
+
+@REM .col-sm-6,
+@REM .col-md-4,
+@REM .col-lg-4 {
+@REM   flex-basis: calc(33.33% - 20px);
+@REM   padding: 10px;
+@REM }
+
+@REM /* Product Box */
+
+@REM .box {
+@REM   position: relative;
+@REM   overflow: hidden;
+@REM   border-radius: 5px;
+@REM   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+@REM   transition: all 0.3s ease-in-out;
+@REM }
+
+@REM .box a {
+@REM   text-decoration: none;
+@REM   color: #333;
+@REM }
+
+@REM .box:hover {
+@REM   transform: scale(1.05);
+@REM   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+@REM }
+
+@REM .img-box {
+@REM   position: relative;
+@REM }
+
+@REM .img-box img {
+@REM   width: 100%;
+@REM   height: 250px;
+@REM   object-fit: cover;
+@REM   transition: all 0.3s ease-in-out;
+@REM }
+
+@REM .box:hover .img-box img {
+@REM   filter: brightness(0.8);
+@REM }
+
+@REM .detail-box {
+@REM   padding: 20px;
+@REM }
+
+@REM .detail-box h6 {
+@REM   font-size: 18px;
+@REM   margin-bottom: 10px;
+@REM }
+
+@REM .detail-box p {
+@REM   font-size: 14px;
+@REM   margin-bottom: 15px;
+@REM }
+
+@REM .detail-box .price {
+@REM   display: flex;
+@REM   align-items: center;
+@REM   margin-bottom: 10px;
+@REM }
+
+@REM .detail-box .price span {
+@REM   font-weight: bold;
+@REM   margin-left: 5px;
+@REM }
+
+@REM .button-box {
+@REM   display: flex;
+@REM   justify-content: space-between;
+@REM }
+
+@REM .button-box button {
+@REM   background-color: #333;
+@REM   color: #fff;
+@REM   padding: 10px 20px;
+@REM   border: none;
+@REM   border-radius: 5px;
+@REM   cursor: pointer;
+@REM   transition: all 0.3s ease-in-out;
+@REM }
+
+@REM .button-box button:hover {
+@REM   background-color: #222;
+@REM }
+
+@REM /* New Badge */
+
+@REM .new {
+@REM   position: absolute;
+@REM   top: 10px;
+@REM   left: 10px;
+@REM   padding: 5px 10px;
+@REM   background-color: #f00;
+@REM   color: #fff;
+@REM   font-size: 12px;
+@REM   font-weight: bold;
+@REM   border-radius: 5px;
+@REM }
+
+@REM /* View All Button */
+
+@REM .btn-box {
+@REM   text-align: center;
+@REM }
+
+@REM .btn-box a {
+@REM   background-color: #333;
+@REM   color: #fff;
+@REM   padding: 10px 20px;
+@REM   border: none;
+@REM   border-radius: 5px;
+@REM   cursor: pointer;
+@REM   transition: all 0.3s ease-in-out;
+@REM }
+
+@REM .btn-box a:hover {
+@REM   background-color: #222;
+@REM }
+
+/* General Styles */
+.shop_section {
+  padding: 70px 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Heading */
+
+.heading_container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading_center h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Products Grid */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.col-sm-6,
+.col-md-4,
+.col-lg-4 {
+  flex-basis: calc(33.33% - 20px);
+  padding: 10px;
+}
+
+/* Product Box */
+
+.box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.box a {
+  text-decoration: none;
+  color: #333;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.img-box {
+  position: relative;
+}
+
+.img-box img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.box:hover .img-box img {
+  filter: brightness(0.8);
+}
+
+.detail-box {
+  padding: 20px;
+}
+
+.detail-box h6 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.detail-box p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.detail-box .price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.detail-box .price span {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-box button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-box button:hover {
+  background-color: #222;
+}
+
+/* New Badge */
+
+.new {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  background-color: #f00;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* View All Button */
+
+.btn-box {
+  text-align: center;
+}
+
+.btn-box a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-box a:hover {
+  background-color: #222;
+}
+
+/* Popup */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 9999;
+}
